@@ -1,0 +1,18 @@
+Third-party notices for Prepline (offline version)
+
+pdf.js 5.6.205
+  Copyright Mozilla Foundation. Licensed under the Apache License, Version 2.0.
+  https://github.com/mozilla/pdf.js
+  Files: lib/pdf.min.js, lib/pdf.worker.min.js. These contain the unmodified pdf.min.mjs and
+  pdf.worker.min.mjs from the official 5.6.205 release, stored as JavaScript strings so they can be
+  loaded from a file:// page; in the worker copy the final ES-module export statement is removed and
+  import.meta.url is replaced by self.location.href so it can run as a classic Web Worker.
+  Full licence: pdfjs-LICENSE.txt
+
+SheetJS Community Edition (xlsx) 0.18.5
+  Copyright (C) 2013-present SheetJS LLC. Licensed under the Apache License, Version 2.0.
+  https://sheetjs.com
+  File: lib/xlsx.full.min.js (unmodified).
+  Full licence: sheetjs-LICENSE.txt
+
+No fonts are bundled: the offline version uses the fonts already installed on your computer.
