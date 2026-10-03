@@ -1,4 +1,4 @@
-# Prepline team edition (v3.3.1)
+# Prepline team edition (v3.3.2)
 
 Prepline by Autoprod: sorts a kitchen preplist into prep lists by dish, station and team section.
 This is the team edition: every tool is on, there is no licence or account.
